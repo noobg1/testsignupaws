@@ -6,11 +6,12 @@ mysql = MySQL()
 application = app = Flask(__name__)
 
 # MySQL configurations
+"""
 application.config['MYSQL_DATABASE_USER'] = 'jay'
 application.config['MYSQL_DATABASE_PASSWORD'] = 'signupjay'
 application.config['MYSQL_DATABASE_DB'] = 'signup'
 application.config['MYSQL_DATABASE_HOST'] = 'signup.cfj54gpjcmhy.us-west-2.rds.amazonaws.com:3306'
-mysql.init_app(application)
+mysql.init_app(application)"""
 
 
 @app.route('/')
