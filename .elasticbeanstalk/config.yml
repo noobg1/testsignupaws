@@ -1,0 +1,10 @@
+branch-defaults:
+  master:
+    environment: signup-dev
+global:
+  application_name: signup
+  default_ec2_keyname: aws-eb
+  default_platform: Python 2.7
+  default_region: ap-southeast-1
+  profile: eb-cli
+  sc: git
